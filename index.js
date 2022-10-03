@@ -91,7 +91,6 @@ const buildSqlInserts = async (file, sql) => {
   }
   
 // require('child_process').exec('start "" "c:\\Users\\GambJJ\\Documents\\sql-generator\\sql"');
-
 };
 
 // TODO
@@ -102,7 +101,7 @@ const buildSqlInserts = async (file, sql) => {
 // create a way to log versions of files for reference.
 // hook up to a browser where you can upload the completed swatching spreadsheet and it will run this code and provide the .sql file as a download.
 // write documentation for the spreadsheet and how to fill it out.
-
+// run server, batch files, then stop server: https://sebhastian.com/how-to-stop-node-server/
 
 
 app.listen(PORT, () => console.log( `server running on PORT ${PORT}`));
