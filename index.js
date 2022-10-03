@@ -20,8 +20,8 @@ USE BrandSites;
 GO \n
 \n
 -- 1. Add new swatch records to swatch table(dbo.Swatches) \n`;
-const step2 = `\n-- 2. Assign a color range to each swatch created above. See table-references/color-ranges.csv for values.(dbo.SwatchesToColorRanges) \n`
-const step3 = `\n-- 3.  Attach swatches to their swatch Categories (dbo.SwatchesToCategories)\n`;
+const step2 = `\n-- 2.  Attach swatches to their swatch Categories (dbo.SwatchesToCategories)\n`;
+const step3 = `\n-- 3. Assign a color range to each swatch created above. See table-references/color-ranges.csv for values.(dbo.SwatchesToColorRanges) \n`
 
 const templateComments = [step1, step2, step3];
 // verify that these match your spreadsheet.
